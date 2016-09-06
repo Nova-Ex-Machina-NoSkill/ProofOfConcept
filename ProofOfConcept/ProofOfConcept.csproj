@@ -35,7 +35,57 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DesignPatterns\Behavioral\ChainOfResp.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Command.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Interpreter.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Iterator.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Mediator.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Memento.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Observer.cs" />
+    <Compile Include="DesignPatterns\Behavioral\State.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Strategy.cs" />
+    <Compile Include="DesignPatterns\Behavioral\TemplateMethod.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Visitor.cs" />
+    <Compile Include="DesignPatterns\Creational\AbstractFactory.cs" />
+    <Compile Include="DesignPatterns\Creational\Builder.cs" />
+    <Compile Include="DesignPatterns\Creational\FactoryMethod.cs" />
+    <Compile Include="DesignPatterns\Creational\Prototype.cs" />
+    <Compile Include="DesignPatterns\Creational\Singleton.cs" />
+    <Compile Include="DesignPatterns\Structural\Adapter.cs" />
+    <Compile Include="DesignPatterns\Structural\Bridge.cs" />
+    <Compile Include="DesignPatterns\Structural\Composite.cs" />
+    <Compile Include="DesignPatterns\Structural\Decorator.cs" />
+    <Compile Include="DesignPatterns\Structural\Facade.cs" />
+    <Compile Include="DesignPatterns\Structural\Flyweight.cs" />
+    <Compile Include="DesignPatterns\Structural\Proxy.cs" />
+    <Compile Include="Fibonacci\Fibonacci.cs" />
+    <Compile Include="HashTable\HashTable.cs" />
+    <Compile Include="LinkedLists\CircularDoublyLinkedList.cs" />
+    <Compile Include="LinkedLists\CircularLinkedList.cs" />
+    <Compile Include="LinkedLists\DoublyLinkedList.cs" />
+    <Compile Include="LinkedLists\LinkedList.cs" />
+    <Compile Include="Math\GCD.cs" />
+    <Compile Include="Math\LCM.cs" />
+    <Compile Include="Math\Sn.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Queue\Fifo.cs" />
+    <Compile Include="Queue\Lifo.cs" />
+    <Compile Include="Search\BinarySearch.cs" />
+    <Compile Include="Search\IArithmetic.cs" />
+    <Compile Include="Search\InterpolationSearch.cs" />
+    <Compile Include="Search\LinearSearch.cs" />
+    <Compile Include="Sorting\BubbleSort.cs" />
+    <Compile Include="Sorting\InsertionSort.cs" />
+    <Compile Include="Sorting\MergeSort.cs" />
+    <Compile Include="Sorting\QuickSort.cs" />
+    <Compile Include="Sorting\SelectionSort.cs" />
+    <Compile Include="Sorting\ShellSort.cs" />
+    <Compile Include="Stack\Stack.cs" />
+    <Compile Include="TowerOfHanoi\TowerOfHanoi.cs" />
+    <Compile Include="Tree\BST.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Geometry\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
