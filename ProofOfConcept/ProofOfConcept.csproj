@@ -37,7 +37,11 @@
   <ItemGroup>
     <Compile Include="DesignPatterns\Behavioral\ChainOfResp.cs" />
     <Compile Include="DesignPatterns\Behavioral\Command.cs" />
-    <Compile Include="DesignPatterns\Behavioral\Interpreter.cs" />
+    <Compile Include="DesignPatterns\Behavioral\InterpreterDemo.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Interpreter\AndExpression.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Interpreter\IExpression.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Interpreter\OrExpression.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Interpreter\TerminalExpression.cs" />
     <Compile Include="DesignPatterns\Behavioral\Iterator.cs" />
     <Compile Include="DesignPatterns\Behavioral\Mediator.cs" />
     <Compile Include="DesignPatterns\Behavioral\Memento.cs" />
