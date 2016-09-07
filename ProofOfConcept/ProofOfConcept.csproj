@@ -35,7 +35,11 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DesignPatterns\Behavioral\ChainOfResp.cs" />
+    <Compile Include="DesignPatterns\Behavioral\ChainOfResponsibilityDemo.cs" />
+    <Compile Include="DesignPatterns\Behavioral\ChainOfResponsibility\AbstractLoger.cs" />
+    <Compile Include="DesignPatterns\Behavioral\ChainOfResponsibility\ConsoleLogger.cs" />
+    <Compile Include="DesignPatterns\Behavioral\ChainOfResponsibility\ErrorLogger.cs" />
+    <Compile Include="DesignPatterns\Behavioral\ChainOfResponsibility\FileLogger.cs" />
     <Compile Include="DesignPatterns\Behavioral\Command.cs" />
     <Compile Include="DesignPatterns\Behavioral\InterpreterDemo.cs" />
     <Compile Include="DesignPatterns\Behavioral\Interpreter\AndExpression.cs" />
