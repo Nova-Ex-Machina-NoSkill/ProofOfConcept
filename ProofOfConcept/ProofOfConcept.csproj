@@ -88,7 +88,8 @@
     <Compile Include="DesignPatterns\Creational\Prototype\Shape.cs" />
     <Compile Include="DesignPatterns\Creational\Prototype\ShapeCache.cs" />
     <Compile Include="DesignPatterns\Creational\Prototype\Square.cs" />
-    <Compile Include="DesignPatterns\Creational\Singleton.cs" />
+    <Compile Include="DesignPatterns\Creational\SingletonDemo.cs" />
+    <Compile Include="DesignPatterns\Creational\Singleton\SingleObject.cs" />
     <Compile Include="DesignPatterns\Structural\Adapter.cs" />
     <Compile Include="DesignPatterns\Structural\Bridge.cs" />
     <Compile Include="DesignPatterns\Structural\Composite.cs" />
