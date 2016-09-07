@@ -118,7 +118,10 @@
     <Compile Include="DesignPatterns\Structural\Facade\Rectangle.cs" />
     <Compile Include="DesignPatterns\Structural\Facade\ShapeMaker.cs" />
     <Compile Include="DesignPatterns\Structural\Facade\Square.cs" />
-    <Compile Include="DesignPatterns\Structural\Flyweight.cs" />
+    <Compile Include="DesignPatterns\Structural\FlyweightDemo.cs" />
+    <Compile Include="DesignPatterns\Structural\Flyweight\Circle.cs" />
+    <Compile Include="DesignPatterns\Structural\Flyweight\IShape.cs" />
+    <Compile Include="DesignPatterns\Structural\Flyweight\ShapeFactory.cs" />
     <Compile Include="DesignPatterns\Structural\ProxyDemo.cs" />
     <Compile Include="DesignPatterns\Structural\Proxy\IImage.cs" />
     <Compile Include="DesignPatterns\Structural\Proxy\ProxyImage.cs" />
