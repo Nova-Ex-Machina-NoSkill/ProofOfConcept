@@ -106,7 +106,12 @@
     <Compile Include="DesignPatterns\Structural\Decorator\Rectangle.cs" />
     <Compile Include="DesignPatterns\Structural\Decorator\RedShapeDecorator.cs" />
     <Compile Include="DesignPatterns\Structural\Decorator\ShapeDecorator.cs" />
-    <Compile Include="DesignPatterns\Structural\Facade.cs" />
+    <Compile Include="DesignPatterns\Structural\FacadeDemo.cs" />
+    <Compile Include="DesignPatterns\Structural\Facade\Circle.cs" />
+    <Compile Include="DesignPatterns\Structural\Facade\IShape.cs" />
+    <Compile Include="DesignPatterns\Structural\Facade\Rectangle.cs" />
+    <Compile Include="DesignPatterns\Structural\Facade\ShapeMaker.cs" />
+    <Compile Include="DesignPatterns\Structural\Facade\Square.cs" />
     <Compile Include="DesignPatterns\Structural\Flyweight.cs" />
     <Compile Include="DesignPatterns\Structural\Proxy.cs" />
     <Compile Include="Fibonacci\Fibonacci.cs" />
