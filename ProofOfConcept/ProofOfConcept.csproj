@@ -50,7 +50,9 @@
     <Compile Include="DesignPatterns\Behavioral\Iterator\IContainer.cs" />
     <Compile Include="DesignPatterns\Behavioral\Iterator\IIterator.cs" />
     <Compile Include="DesignPatterns\Behavioral\Iterator\NameRepository.cs" />
-    <Compile Include="DesignPatterns\Behavioral\Mediator.cs" />
+    <Compile Include="DesignPatterns\Behavioral\MediatorDemo.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Mediator\ChatRoom.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Mediator\User.cs" />
     <Compile Include="DesignPatterns\Behavioral\Memento.cs" />
     <Compile Include="DesignPatterns\Behavioral\Observer.cs" />
     <Compile Include="DesignPatterns\Behavioral\State.cs" />
