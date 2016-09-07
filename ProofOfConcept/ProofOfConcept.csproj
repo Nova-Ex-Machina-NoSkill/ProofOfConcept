@@ -82,7 +82,12 @@
     <Compile Include="DesignPatterns\Creational\Builder\IPacking.cs" />
     <Compile Include="DesignPatterns\Creational\Builder\Wrapper.cs" />
     <Compile Include="DesignPatterns\Creational\FactoryMethodDemo.cs" />
-    <Compile Include="DesignPatterns\Creational\Prototype.cs" />
+    <Compile Include="DesignPatterns\Creational\PrototypeDemo.cs" />
+    <Compile Include="DesignPatterns\Creational\Prototype\Circle.cs" />
+    <Compile Include="DesignPatterns\Creational\Prototype\Rectangle.cs" />
+    <Compile Include="DesignPatterns\Creational\Prototype\Shape.cs" />
+    <Compile Include="DesignPatterns\Creational\Prototype\ShapeCache.cs" />
+    <Compile Include="DesignPatterns\Creational\Prototype\Square.cs" />
     <Compile Include="DesignPatterns\Creational\Singleton.cs" />
     <Compile Include="DesignPatterns\Structural\Adapter.cs" />
     <Compile Include="DesignPatterns\Structural\Bridge.cs" />
