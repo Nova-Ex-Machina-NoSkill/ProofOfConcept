@@ -42,7 +42,10 @@
     <Compile Include="DesignPatterns\Behavioral\Interpreter\IExpression.cs" />
     <Compile Include="DesignPatterns\Behavioral\Interpreter\OrExpression.cs" />
     <Compile Include="DesignPatterns\Behavioral\Interpreter\TerminalExpression.cs" />
-    <Compile Include="DesignPatterns\Behavioral\Iterator.cs" />
+    <Compile Include="DesignPatterns\Behavioral\IteratorDemo.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Iterator\IContainer.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Iterator\IIterator.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Iterator\NameRepository.cs" />
     <Compile Include="DesignPatterns\Behavioral\Mediator.cs" />
     <Compile Include="DesignPatterns\Behavioral\Memento.cs" />
     <Compile Include="DesignPatterns\Behavioral\Observer.cs" />

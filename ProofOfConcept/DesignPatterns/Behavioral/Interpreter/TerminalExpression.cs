@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ProofOfConcept.DesignPatterns.Behavioral.Interpreter
+﻿namespace ProofOfConcept.DesignPatterns.Behavioral.Interpreter
 {
     public class TerminalExpression : IExpression
     {
