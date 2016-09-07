@@ -119,7 +119,10 @@
     <Compile Include="DesignPatterns\Structural\Facade\ShapeMaker.cs" />
     <Compile Include="DesignPatterns\Structural\Facade\Square.cs" />
     <Compile Include="DesignPatterns\Structural\Flyweight.cs" />
-    <Compile Include="DesignPatterns\Structural\Proxy.cs" />
+    <Compile Include="DesignPatterns\Structural\ProxyDemo.cs" />
+    <Compile Include="DesignPatterns\Structural\Proxy\IImage.cs" />
+    <Compile Include="DesignPatterns\Structural\Proxy\ProxyImage.cs" />
+    <Compile Include="DesignPatterns\Structural\Proxy\RealImage.cs" />
     <Compile Include="Fibonacci\Fibonacci.cs" />
     <Compile Include="HashTable\HashTable.cs" />
     <Compile Include="LinkedLists\CircularDoublyLinkedList.cs" />
