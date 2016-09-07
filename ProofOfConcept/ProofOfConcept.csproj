@@ -99,7 +99,8 @@
     <Compile Include="DesignPatterns\Structural\Adapter\Mp4Player.cs" />
     <Compile Include="DesignPatterns\Structural\Adapter\VlcPlayer.cs" />
     <Compile Include="DesignPatterns\Structural\Bridge.cs" />
-    <Compile Include="DesignPatterns\Structural\Composite.cs" />
+    <Compile Include="DesignPatterns\Structural\CompositeDemo.cs" />
+    <Compile Include="DesignPatterns\Structural\Composite\Employee.cs" />
     <Compile Include="DesignPatterns\Structural\DecoratorDemo.cs" />
     <Compile Include="DesignPatterns\Structural\Decorator\Circle.cs" />
     <Compile Include="DesignPatterns\Structural\Decorator\IShape.cs" />
