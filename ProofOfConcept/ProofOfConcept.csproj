@@ -46,7 +46,22 @@
     <Compile Include="DesignPatterns\Behavioral\Strategy.cs" />
     <Compile Include="DesignPatterns\Behavioral\TemplateMethod.cs" />
     <Compile Include="DesignPatterns\Behavioral\Visitor.cs" />
-    <Compile Include="DesignPatterns\Creational\AbstractFactory.cs" />
+    <Compile Include="DesignPatterns\Creational\AbstractFactoryDemo.cs" />
+    <Compile Include="DesignPatterns\Creational\AbstractFactory\AbstractFactory.cs" />
+    <Compile Include="DesignPatterns\Creational\AbstractFactory\Blue.cs" />
+    <Compile Include="DesignPatterns\Creational\AbstractFactory\Circle.cs" />
+    <Compile Include="DesignPatterns\Creational\AbstractFactory\FactoryEnum.cs" />
+    <Compile Include="DesignPatterns\Creational\AbstractFactory\ColorEnum.cs" />
+    <Compile Include="DesignPatterns\Creational\AbstractFactory\ColorFactory.cs" />
+    <Compile Include="DesignPatterns\Creational\AbstractFactory\FactoryProducer.cs" />
+    <Compile Include="DesignPatterns\Creational\AbstractFactory\ShapeEnum.cs" />
+    <Compile Include="DesignPatterns\Creational\AbstractFactory\Green.cs" />
+    <Compile Include="DesignPatterns\Creational\AbstractFactory\IColor.cs" />
+    <Compile Include="DesignPatterns\Creational\AbstractFactory\IShape.cs" />
+    <Compile Include="DesignPatterns\Creational\AbstractFactory\Rectangle.cs" />
+    <Compile Include="DesignPatterns\Creational\AbstractFactory\Red.cs" />
+    <Compile Include="DesignPatterns\Creational\AbstractFactory\ShapeFactory.cs" />
+    <Compile Include="DesignPatterns\Creational\AbstractFactory\Square.cs" />
     <Compile Include="DesignPatterns\Creational\Builder\Builder.cs" />
     <Compile Include="DesignPatterns\Creational\Builder\Burger.cs" />
     <Compile Include="DesignPatterns\Creational\Builder\ChickenBurger.cs" />
@@ -97,7 +112,6 @@
     <Compile Include="Tree\BST.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DesignPatterns\Creational\AbstractFactor\" />
     <Folder Include="Geometry\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
