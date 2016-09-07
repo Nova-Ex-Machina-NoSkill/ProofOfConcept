@@ -90,7 +90,14 @@
     <Compile Include="DesignPatterns\Creational\Prototype\Square.cs" />
     <Compile Include="DesignPatterns\Creational\SingletonDemo.cs" />
     <Compile Include="DesignPatterns\Creational\Singleton\SingleObject.cs" />
-    <Compile Include="DesignPatterns\Structural\Adapter.cs" />
+    <Compile Include="DesignPatterns\Structural\AdapterDemo.cs" />
+    <Compile Include="DesignPatterns\Structural\Adapter\AudioPlayer.cs" />
+    <Compile Include="DesignPatterns\Structural\Adapter\AudioType.cs" />
+    <Compile Include="DesignPatterns\Structural\Adapter\IAdvancedMediaPlayer.cs" />
+    <Compile Include="DesignPatterns\Structural\Adapter\IMediaPlayer.cs" />
+    <Compile Include="DesignPatterns\Structural\Adapter\MediaAdapter.cs" />
+    <Compile Include="DesignPatterns\Structural\Adapter\Mp4Player.cs" />
+    <Compile Include="DesignPatterns\Structural\Adapter\VlcPlayer.cs" />
     <Compile Include="DesignPatterns\Structural\Bridge.cs" />
     <Compile Include="DesignPatterns\Structural\Composite.cs" />
     <Compile Include="DesignPatterns\Structural\Decorator.cs" />
