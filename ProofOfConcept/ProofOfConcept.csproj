@@ -100,7 +100,12 @@
     <Compile Include="DesignPatterns\Structural\Adapter\VlcPlayer.cs" />
     <Compile Include="DesignPatterns\Structural\Bridge.cs" />
     <Compile Include="DesignPatterns\Structural\Composite.cs" />
-    <Compile Include="DesignPatterns\Structural\Decorator.cs" />
+    <Compile Include="DesignPatterns\Structural\DecoratorDemo.cs" />
+    <Compile Include="DesignPatterns\Structural\Decorator\Circle.cs" />
+    <Compile Include="DesignPatterns\Structural\Decorator\IShape.cs" />
+    <Compile Include="DesignPatterns\Structural\Decorator\Rectangle.cs" />
+    <Compile Include="DesignPatterns\Structural\Decorator\RedShapeDecorator.cs" />
+    <Compile Include="DesignPatterns\Structural\Decorator\ShapeDecorator.cs" />
     <Compile Include="DesignPatterns\Structural\Facade.cs" />
     <Compile Include="DesignPatterns\Structural\Flyweight.cs" />
     <Compile Include="DesignPatterns\Structural\Proxy.cs" />
