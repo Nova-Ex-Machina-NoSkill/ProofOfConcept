@@ -57,7 +57,10 @@
     <Compile Include="DesignPatterns\Behavioral\Observer.cs" />
     <Compile Include="DesignPatterns\Behavioral\State.cs" />
     <Compile Include="DesignPatterns\Behavioral\Strategy.cs" />
-    <Compile Include="DesignPatterns\Behavioral\TemplateMethod.cs" />
+    <Compile Include="DesignPatterns\Behavioral\TemplateMethodDemo.cs" />
+    <Compile Include="DesignPatterns\Behavioral\TemplateMethod\Cricket.cs" />
+    <Compile Include="DesignPatterns\Behavioral\TemplateMethod\Football.cs" />
+    <Compile Include="DesignPatterns\Behavioral\TemplateMethod\Game.cs" />
     <Compile Include="DesignPatterns\Behavioral\Visitor.cs" />
     <Compile Include="DesignPatterns\Creational\AbstractFactoryDemo.cs" />
     <Compile Include="DesignPatterns\Creational\AbstractFactory\AbstractFactory.cs" />
