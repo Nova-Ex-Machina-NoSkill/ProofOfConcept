@@ -98,7 +98,12 @@
     <Compile Include="DesignPatterns\Structural\Adapter\MediaAdapter.cs" />
     <Compile Include="DesignPatterns\Structural\Adapter\Mp4Player.cs" />
     <Compile Include="DesignPatterns\Structural\Adapter\VlcPlayer.cs" />
-    <Compile Include="DesignPatterns\Structural\Bridge.cs" />
+    <Compile Include="DesignPatterns\Structural\BridgeDemo.cs" />
+    <Compile Include="DesignPatterns\Structural\Bridge\Circle.cs" />
+    <Compile Include="DesignPatterns\Structural\Bridge\GreenCircle.cs" />
+    <Compile Include="DesignPatterns\Structural\Bridge\IDraw.cs" />
+    <Compile Include="DesignPatterns\Structural\Bridge\RedCircle.cs" />
+    <Compile Include="DesignPatterns\Structural\Bridge\Shape.cs" />
     <Compile Include="DesignPatterns\Structural\CompositeDemo.cs" />
     <Compile Include="DesignPatterns\Structural\Composite\Employee.cs" />
     <Compile Include="DesignPatterns\Structural\DecoratorDemo.cs" />
