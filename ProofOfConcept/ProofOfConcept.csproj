@@ -120,7 +120,7 @@
     <Compile Include="DesignPatterns\Creational\FactoryMethod\ShapeFactory.cs" />
     <Compile Include="DesignPatterns\Creational\FactoryMethod\Square.cs" />
     <Compile Include="DesignPatterns\Creational\FactoryMethod\Rectangle.cs" />
-    <Compile Include="DesignPatterns\Creational\MealBuilderDemo.cs" />
+    <Compile Include="DesignPatterns\Creational\BuilderDemo.cs" />
     <Compile Include="DesignPatterns\Creational\Builder\Bottle.cs" />
     <Compile Include="DesignPatterns\Creational\Builder\IItem.cs" />
     <Compile Include="DesignPatterns\Creational\Builder\IPacking.cs" />
@@ -162,6 +162,14 @@
     <Compile Include="DesignPatterns\Structural\Facade\Rectangle.cs" />
     <Compile Include="DesignPatterns\Structural\Facade\ShapeMaker.cs" />
     <Compile Include="DesignPatterns\Structural\Facade\Square.cs" />
+    <Compile Include="DesignPatterns\Structural\FilterDemo.cs" />
+    <Compile Include="DesignPatterns\Structural\Filter\AndCriteria.cs" />
+    <Compile Include="DesignPatterns\Structural\Filter\CriteriaMale.cs" />
+    <Compile Include="DesignPatterns\Structural\Filter\CriteriaSingle.cs" />
+    <Compile Include="DesignPatterns\Structural\Filter\CriteriaFemale.cs" />
+    <Compile Include="DesignPatterns\Structural\Filter\ICriteria.cs" />
+    <Compile Include="DesignPatterns\Structural\Filter\OrCriteria.cs" />
+    <Compile Include="DesignPatterns\Structural\Filter\Person.cs" />
     <Compile Include="DesignPatterns\Structural\FlyweightDemo.cs" />
     <Compile Include="DesignPatterns\Structural\Flyweight\Circle.cs" />
     <Compile Include="DesignPatterns\Structural\Flyweight\IShape.cs" />
@@ -197,6 +205,15 @@
     <Compile Include="Tree\BST.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="DesignPatterns\Behavioral\Null\" />
+    <Folder Include="DesignPatterns\BusinessDelegate\" />
+    <Folder Include="DesignPatterns\CompositeEntity\" />
+    <Folder Include="DesignPatterns\DataAccessObject\" />
+    <Folder Include="DesignPatterns\FrontController\" />
+    <Folder Include="DesignPatterns\InterceptingFilter\" />
+    <Folder Include="DesignPatterns\MVC\" />
+    <Folder Include="DesignPatterns\ServiceLocator\" />
+    <Folder Include="DesignPatterns\TransferObject\" />
     <Folder Include="Geometry\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

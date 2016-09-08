@@ -2,11 +2,11 @@
 {
     using Builder;
 
-    public class MealBuilderDemo
+    public class BuilderDemo
     {
         public static Builder.Builder builder;
 
-        static MealBuilderDemo()
+        static BuilderDemo()
         {
             builder = new Builder.Builder();
         }
