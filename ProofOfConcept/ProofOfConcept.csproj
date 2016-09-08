@@ -139,6 +139,10 @@
     <Compile Include="DesignPatterns\Creational\Prototype\Square.cs" />
     <Compile Include="DesignPatterns\Creational\SingletonDemo.cs" />
     <Compile Include="DesignPatterns\Creational\Singleton\SingleObject.cs" />
+    <Compile Include="DesignPatterns\MVCDemo.cs" />
+    <Compile Include="DesignPatterns\MVC\Student.cs" />
+    <Compile Include="DesignPatterns\MVC\StudentController.cs" />
+    <Compile Include="DesignPatterns\MVC\StudentView.cs" />
     <Compile Include="DesignPatterns\Structural\AdapterDemo.cs" />
     <Compile Include="DesignPatterns\Structural\Adapter\AudioPlayer.cs" />
     <Compile Include="DesignPatterns\Structural\Adapter\AudioType.cs" />
@@ -215,7 +219,6 @@
     <Folder Include="DesignPatterns\DataAccessObject\" />
     <Folder Include="DesignPatterns\FrontController\" />
     <Folder Include="DesignPatterns\InterceptingFilter\" />
-    <Folder Include="DesignPatterns\MVC\" />
     <Folder Include="DesignPatterns\ServiceLocator\" />
     <Folder Include="DesignPatterns\TransferObject\" />
     <Folder Include="Geometry\" />
