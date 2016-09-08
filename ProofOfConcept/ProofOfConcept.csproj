@@ -71,7 +71,13 @@
     <Compile Include="DesignPatterns\Behavioral\State\IState.cs" />
     <Compile Include="DesignPatterns\Behavioral\State\StartState.cs" />
     <Compile Include="DesignPatterns\Behavioral\State\StopState.cs" />
-    <Compile Include="DesignPatterns\Behavioral\Strategy.cs" />
+    <Compile Include="DesignPatterns\Behavioral\StrategyDemo.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Strategy\Context.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Strategy\IStrategy.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Strategy\OperationAdd.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Strategy\OperationDivide.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Strategy\OperationMultiply.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Strategy\OperationSubstract.cs" />
     <Compile Include="DesignPatterns\Behavioral\TemplateMethodDemo.cs" />
     <Compile Include="DesignPatterns\Behavioral\TemplateMethod\Cricket.cs" />
     <Compile Include="DesignPatterns\Behavioral\TemplateMethod\Football.cs" />
