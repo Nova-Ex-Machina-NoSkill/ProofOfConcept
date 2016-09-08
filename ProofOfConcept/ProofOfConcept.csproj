@@ -153,6 +153,10 @@
     <Compile Include="DesignPatterns\Creational\Prototype\Square.cs" />
     <Compile Include="DesignPatterns\Creational\SingletonDemo.cs" />
     <Compile Include="DesignPatterns\Creational\Singleton\SingleObject.cs" />
+    <Compile Include="DesignPatterns\DataAccessObjectDemo.cs" />
+    <Compile Include="DesignPatterns\DataAccessObject\IStudentDao.cs" />
+    <Compile Include="DesignPatterns\DataAccessObject\Student.cs" />
+    <Compile Include="DesignPatterns\DataAccessObject\StudentDao.cs" />
     <Compile Include="DesignPatterns\MVCDemo.cs" />
     <Compile Include="DesignPatterns\MVC\Student.cs" />
     <Compile Include="DesignPatterns\MVC\StudentController.cs" />
@@ -228,7 +232,6 @@
     <Compile Include="Tree\BST.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DesignPatterns\DataAccessObject\" />
     <Folder Include="DesignPatterns\FrontController\" />
     <Folder Include="DesignPatterns\InterceptingFilter\" />
     <Folder Include="DesignPatterns\ServiceLocator\" />
