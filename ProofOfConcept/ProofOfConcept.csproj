@@ -64,7 +64,14 @@
     <Compile Include="DesignPatterns\Behavioral\TemplateMethod\Cricket.cs" />
     <Compile Include="DesignPatterns\Behavioral\TemplateMethod\Football.cs" />
     <Compile Include="DesignPatterns\Behavioral\TemplateMethod\Game.cs" />
-    <Compile Include="DesignPatterns\Behavioral\Visitor.cs" />
+    <Compile Include="DesignPatterns\Behavioral\VisitorDemo.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Visitor\Computer.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Visitor\ComputerPartDisplayVisitor.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Visitor\IComputerPart.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Visitor\IComputerPartVisitor.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Visitor\Keyboard.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Visitor\Monitor.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Visitor\Mouse.cs" />
     <Compile Include="DesignPatterns\Creational\AbstractFactoryDemo.cs" />
     <Compile Include="DesignPatterns\Creational\AbstractFactory\AbstractFactory.cs" />
     <Compile Include="DesignPatterns\Creational\AbstractFactory\Blue.cs" />
