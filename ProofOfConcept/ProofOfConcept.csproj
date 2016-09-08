@@ -62,6 +62,11 @@
     <Compile Include="DesignPatterns\Behavioral\Memento\CareTaker.cs" />
     <Compile Include="DesignPatterns\Behavioral\Memento\Memento.cs" />
     <Compile Include="DesignPatterns\Behavioral\Memento\Originator.cs" />
+    <Compile Include="DesignPatterns\Behavioral\NullDemo.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Null\AbstractCustomer.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Null\CustomerFactory.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Null\NullCustomer.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Null\RealCustomer.cs" />
     <Compile Include="DesignPatterns\Behavioral\ObserverDemo.cs" />
     <Compile Include="DesignPatterns\Behavioral\Observer\StateObserver.cs" />
     <Compile Include="DesignPatterns\Behavioral\Observer\Observer.cs" />
@@ -205,7 +210,6 @@
     <Compile Include="Tree\BST.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DesignPatterns\Behavioral\Null\" />
     <Folder Include="DesignPatterns\BusinessDelegate\" />
     <Folder Include="DesignPatterns\CompositeEntity\" />
     <Folder Include="DesignPatterns\DataAccessObject\" />
