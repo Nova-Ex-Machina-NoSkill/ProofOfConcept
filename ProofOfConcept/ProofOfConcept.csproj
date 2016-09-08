@@ -95,6 +95,14 @@
     <Compile Include="DesignPatterns\Behavioral\Visitor\Keyboard.cs" />
     <Compile Include="DesignPatterns\Behavioral\Visitor\Monitor.cs" />
     <Compile Include="DesignPatterns\Behavioral\Visitor\Mouse.cs" />
+    <Compile Include="DesignPatterns\Business\BusinessDelegate.cs" />
+    <Compile Include="DesignPatterns\Business\BusinessLookUp.cs" />
+    <Compile Include="DesignPatterns\Business\Client.cs" />
+    <Compile Include="DesignPatterns\Business\EJBService.cs" />
+    <Compile Include="DesignPatterns\Business\IBusinessService.cs" />
+    <Compile Include="DesignPatterns\Business\JMSService.cs" />
+    <Compile Include="DesignPatterns\Business\ServiceTypeEnum.cs" />
+    <Compile Include="DesignPatterns\BusinessDemo.cs" />
     <Compile Include="DesignPatterns\Creational\AbstractFactoryDemo.cs" />
     <Compile Include="DesignPatterns\Creational\AbstractFactory\AbstractFactory.cs" />
     <Compile Include="DesignPatterns\Creational\AbstractFactory\Blue.cs" />
@@ -214,7 +222,6 @@
     <Compile Include="Tree\BST.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DesignPatterns\BusinessDelegate\" />
     <Folder Include="DesignPatterns\CompositeEntity\" />
     <Folder Include="DesignPatterns\DataAccessObject\" />
     <Folder Include="DesignPatterns\FrontController\" />
