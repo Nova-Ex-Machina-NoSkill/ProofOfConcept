@@ -54,7 +54,10 @@
     <Compile Include="DesignPatterns\Behavioral\Mediator\ChatRoom.cs" />
     <Compile Include="DesignPatterns\Behavioral\Mediator\User.cs" />
     <Compile Include="DesignPatterns\Behavioral\Memento.cs" />
-    <Compile Include="DesignPatterns\Behavioral\Observer.cs" />
+    <Compile Include="DesignPatterns\Behavioral\ObserverDemo.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Observer\StateObserver.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Observer\Observer.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Observer\Subject.cs" />
     <Compile Include="DesignPatterns\Behavioral\State.cs" />
     <Compile Include="DesignPatterns\Behavioral\Strategy.cs" />
     <Compile Include="DesignPatterns\Behavioral\TemplateMethodDemo.cs" />
