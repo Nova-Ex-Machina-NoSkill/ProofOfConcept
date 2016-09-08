@@ -66,7 +66,11 @@
     <Compile Include="DesignPatterns\Behavioral\Observer\StateObserver.cs" />
     <Compile Include="DesignPatterns\Behavioral\Observer\Observer.cs" />
     <Compile Include="DesignPatterns\Behavioral\Observer\Subject.cs" />
-    <Compile Include="DesignPatterns\Behavioral\State.cs" />
+    <Compile Include="DesignPatterns\Behavioral\StateDemo.cs" />
+    <Compile Include="DesignPatterns\Behavioral\State\Context.cs" />
+    <Compile Include="DesignPatterns\Behavioral\State\IState.cs" />
+    <Compile Include="DesignPatterns\Behavioral\State\StartState.cs" />
+    <Compile Include="DesignPatterns\Behavioral\State\StopState.cs" />
     <Compile Include="DesignPatterns\Behavioral\Strategy.cs" />
     <Compile Include="DesignPatterns\Behavioral\TemplateMethodDemo.cs" />
     <Compile Include="DesignPatterns\Behavioral\TemplateMethod\Cricket.cs" />
