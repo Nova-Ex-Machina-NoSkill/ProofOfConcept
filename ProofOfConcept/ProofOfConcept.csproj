@@ -103,6 +103,12 @@
     <Compile Include="DesignPatterns\Business\JMSService.cs" />
     <Compile Include="DesignPatterns\Business\ServiceTypeEnum.cs" />
     <Compile Include="DesignPatterns\BusinessDemo.cs" />
+    <Compile Include="DesignPatterns\CompositeEntityDemo.cs" />
+    <Compile Include="DesignPatterns\CompositeEntity\Client.cs" />
+    <Compile Include="DesignPatterns\CompositeEntity\CoarseGrainedObject.cs" />
+    <Compile Include="DesignPatterns\CompositeEntity\CompositeEntity.cs" />
+    <Compile Include="DesignPatterns\CompositeEntity\DependentObject1.cs" />
+    <Compile Include="DesignPatterns\CompositeEntity\DependentObject2.cs" />
     <Compile Include="DesignPatterns\Creational\AbstractFactoryDemo.cs" />
     <Compile Include="DesignPatterns\Creational\AbstractFactory\AbstractFactory.cs" />
     <Compile Include="DesignPatterns\Creational\AbstractFactory\Blue.cs" />
@@ -222,7 +228,6 @@
     <Compile Include="Tree\BST.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DesignPatterns\CompositeEntity\" />
     <Folder Include="DesignPatterns\DataAccessObject\" />
     <Folder Include="DesignPatterns\FrontController\" />
     <Folder Include="DesignPatterns\InterceptingFilter\" />
