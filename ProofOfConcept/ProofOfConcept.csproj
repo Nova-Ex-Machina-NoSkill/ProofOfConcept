@@ -40,7 +40,12 @@
     <Compile Include="DesignPatterns\Behavioral\ChainOfResponsibility\ConsoleLogger.cs" />
     <Compile Include="DesignPatterns\Behavioral\ChainOfResponsibility\ErrorLogger.cs" />
     <Compile Include="DesignPatterns\Behavioral\ChainOfResponsibility\FileLogger.cs" />
-    <Compile Include="DesignPatterns\Behavioral\Command.cs" />
+    <Compile Include="DesignPatterns\Behavioral\CommandDemo.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Command\Broker.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Command\BuyStock.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Command\IOrder.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Command\SellStock.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Command\Stock.cs" />
     <Compile Include="DesignPatterns\Behavioral\InterpreterDemo.cs" />
     <Compile Include="DesignPatterns\Behavioral\Interpreter\AndExpression.cs" />
     <Compile Include="DesignPatterns\Behavioral\Interpreter\IExpression.cs" />
