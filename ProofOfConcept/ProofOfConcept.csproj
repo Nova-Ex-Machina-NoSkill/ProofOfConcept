@@ -157,6 +157,11 @@
     <Compile Include="DesignPatterns\DataAccessObject\IStudentDao.cs" />
     <Compile Include="DesignPatterns\DataAccessObject\Student.cs" />
     <Compile Include="DesignPatterns\DataAccessObject\StudentDao.cs" />
+    <Compile Include="DesignPatterns\FrontControllerDemo.cs" />
+    <Compile Include="DesignPatterns\FrontController\Dispatcher.cs" />
+    <Compile Include="DesignPatterns\FrontController\FrontController.cs" />
+    <Compile Include="DesignPatterns\FrontController\HomeView.cs" />
+    <Compile Include="DesignPatterns\FrontController\StudentView.cs" />
     <Compile Include="DesignPatterns\MVCDemo.cs" />
     <Compile Include="DesignPatterns\MVC\Student.cs" />
     <Compile Include="DesignPatterns\MVC\StudentController.cs" />
@@ -232,7 +237,6 @@
     <Compile Include="Tree\BST.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DesignPatterns\FrontController\" />
     <Folder Include="DesignPatterns\InterceptingFilter\" />
     <Folder Include="DesignPatterns\ServiceLocator\" />
     <Folder Include="DesignPatterns\TransferObject\" />
