@@ -33,6 +33,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.XML" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DesignPatterns\Behavioral\ChainOfResponsibilityDemo.cs" />
@@ -229,6 +230,12 @@
     <Compile Include="DesignPatterns\TransferObject\StudentBO.cs" />
     <Compile Include="DesignPatterns\TransferObject\StudentVO.cs" />
     <Compile Include="Fibonacci\Fibonacci.cs" />
+    <Compile Include="Geometry\Structures\Interfaces\IPoint.cs" />
+    <Compile Include="Geometry\Structures\Interfaces\ISize.cs" />
+    <Compile Include="Geometry\Structures\Interfaces\IVector.cs" />
+    <Compile Include="Geometry\Structures\Point.cs" />
+    <Compile Include="Geometry\Structures\Size.cs" />
+    <Compile Include="Geometry\Structures\Vector.cs" />
     <Compile Include="HashTable\HashTable.cs" />
     <Compile Include="LinkedLists\CircularDoublyLinkedList.cs" />
     <Compile Include="LinkedLists\CircularLinkedList.cs" />
@@ -254,9 +261,7 @@
     <Compile Include="TowerOfHanoi\TowerOfHanoi.cs" />
     <Compile Include="Tree\BST.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Geometry\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
