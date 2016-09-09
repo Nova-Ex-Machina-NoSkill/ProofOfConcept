@@ -162,6 +162,14 @@
     <Compile Include="DesignPatterns\FrontController\FrontController.cs" />
     <Compile Include="DesignPatterns\FrontController\HomeView.cs" />
     <Compile Include="DesignPatterns\FrontController\StudentView.cs" />
+    <Compile Include="DesignPatterns\InterceptingFilterDemo.cs" />
+    <Compile Include="DesignPatterns\InterceptingFilter\AuthenticationFilter.cs" />
+    <Compile Include="DesignPatterns\InterceptingFilter\Client.cs" />
+    <Compile Include="DesignPatterns\InterceptingFilter\DebugFilter.cs" />
+    <Compile Include="DesignPatterns\InterceptingFilter\FilterChain.cs" />
+    <Compile Include="DesignPatterns\InterceptingFilter\FilterManager.cs" />
+    <Compile Include="DesignPatterns\InterceptingFilter\IFilter.cs" />
+    <Compile Include="DesignPatterns\InterceptingFilter\Target.cs" />
     <Compile Include="DesignPatterns\MVCDemo.cs" />
     <Compile Include="DesignPatterns\MVC\Student.cs" />
     <Compile Include="DesignPatterns\MVC\StudentController.cs" />
@@ -237,7 +245,6 @@
     <Compile Include="Tree\BST.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DesignPatterns\InterceptingFilter\" />
     <Folder Include="DesignPatterns\ServiceLocator\" />
     <Folder Include="DesignPatterns\TransferObject\" />
     <Folder Include="Geometry\" />
