@@ -225,6 +225,9 @@
     <Compile Include="DesignPatterns\Structural\Proxy\IImage.cs" />
     <Compile Include="DesignPatterns\Structural\Proxy\ProxyImage.cs" />
     <Compile Include="DesignPatterns\Structural\Proxy\RealImage.cs" />
+    <Compile Include="DesignPatterns\TransferObjectDemo.cs" />
+    <Compile Include="DesignPatterns\TransferObject\StudentBO.cs" />
+    <Compile Include="DesignPatterns\TransferObject\StudentVO.cs" />
     <Compile Include="Fibonacci\Fibonacci.cs" />
     <Compile Include="HashTable\HashTable.cs" />
     <Compile Include="LinkedLists\CircularDoublyLinkedList.cs" />
@@ -252,7 +255,6 @@
     <Compile Include="Tree\BST.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DesignPatterns\TransferObject\" />
     <Folder Include="Geometry\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
